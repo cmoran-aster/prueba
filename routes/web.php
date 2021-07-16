@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/menu', function () {
+    return view('theme/lte/layout');
+});
+
 Route::get('/dashboard', function () {
+    /*return view('theme/lte/layout');*/
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
