@@ -7,6 +7,8 @@
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- icono -->
+  <!-- <link rel="icon" type="image/png" href="/imágenes/mifavicon.png" > -->
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<!DOCTYPE html>
   <html style="height: auto;" class="" lang="en"><head>
@@ -26,6 +28,10 @@
     <body class="sidebar-mini layout-fixed layout-navbar-fixed sidebar-collapse" style="height: auto;">
     <!-- Site wrapper -->
     <div class="wrapper">
+      <!-- Preloader -->
+      <div class="preloader flex-column justify-content-center align-items-center">
+        <img class="animation__shake" src="{{asset("assets/$theme/dist/img/AdminLTELogo.png")}}" alt="AdminLTELogo" height="60" width="60">
+      </div>
       <!-- Navbar -->
       @include("theme/$theme/navbar")
       <!-- /.navbar -->

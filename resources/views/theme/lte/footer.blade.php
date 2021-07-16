@@ -1,6 +1,6 @@
-<footer class="main-footer text-sm">
+<footer class="main-footer text-sm" style="padding: 2px !important;">
     <div class="float-right d-none d-sm-block">
       <b>Version</b> 3.1.0
     </div>
-    <strong>Copyright © 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright ©<?=date('Y')?> <a href="http://aster.com.gt" target="blank">Sistemas Aster</a>.</strong> All rights reserved.
   </footer>
